@@ -1,14 +1,14 @@
 {
   "name": "voting-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Exercise using http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html",
   "main": "index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js  --recursive",
     "test:watch": "npm run test -- --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "john@johnhunter.info",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.5.1",
