@@ -1,7 +1,17 @@
 /*eslint-env node, mocha */
 import {List, Map} from 'immutable';
 import {expect} from 'chai';
+
 import {setEntries, next, vote} from '../src/core';
+
+/*
+Core application logic - the data model.
+State is managed by calling transform functions that create
+a new application state.
+
+The data itself is immutable.
+See api docs https://facebook.github.io/immutable-js/docs/
+ */
 
 describe('application logic', () => {
 
