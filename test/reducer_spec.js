@@ -11,6 +11,8 @@ creating an abstraction layer between view and model.
 Can be invoked with a reduce to perform batched actions.
 
 By convention action types are uppercase strings.
+
+See http://redux.js.org/docs/basics/Reducers.html
  */
 
 describe('reducer', () => {
