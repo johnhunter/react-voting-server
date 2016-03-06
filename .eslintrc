@@ -1,5 +1,4 @@
 {
-
   "parser": "babel-eslint",
   "parserOptions": {
     "ecmaFeatures": {
@@ -11,7 +10,6 @@
     "react"
   ],
   "env": {
-    "browser": true,
     "node": true
   },
   "extends": [
