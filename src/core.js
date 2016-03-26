@@ -24,6 +24,9 @@ export function next(state) {
 }
 
 export function vote(voteState, entry) {
+  if (!voteState.get('pair').includes(entry)) {
+    return voteState;
+  }
   return voteState.updateIn(
     ['tally', entry],
     0,
